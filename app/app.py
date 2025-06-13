@@ -2,7 +2,11 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
-# Load model and encoders
+
+# 🚀 Page config
+st.set_page_config(page_title="Kohli Match Predictor", layout="centered")
+
+# ✅ Cache the model and encoders to avoid reloading
 @st.cache_resource
 def load_model_and_encoders():
     model = joblib.load("models_hist/kohli_model.pkl")
@@ -12,7 +16,7 @@ def load_model_and_encoders():
 
 model, le_opponent, le_stadium = load_model_and_encoders()
 
-# Load raw dataset to validate input combinations
+# ✅ Load & fix raw data
 @st.cache_data
 def load_raw_data():
     df = pd.read_csv("data/Virat_kohli_DataSet_Final.csv")
@@ -20,49 +24,45 @@ def load_raw_data():
     return df
 
 raw_df = load_raw_data()
-# Get class labels
-opponents = list(le_opponent.classes_)
-stadiums = list(le_stadium.classes_)
 
-# Page configuration
-st.set_page_config(page_title="Kohli Match Predictor", layout="centered")
-
-# Header
+# 🎨 Header
 st.markdown("""
     <h1 style='text-align: center; color: #cc3300;'>Player Performance Predictor</h1>
     <h4 style='text-align: center; color: #555;'>Predict Kohli’s performance based on match conditions</h4>
     <hr style='border: 1px solid #cc3300;'>
 """, unsafe_allow_html=True)
 
-# Inputs
+# 📥 Inputs
+opponents = list(le_opponent.classes_)
+stadiums = list(le_stadium.classes_)
+
 opp_input = st.selectbox("🔻 Select Opponent Team", opponents)
 venue_input = st.selectbox("🏟️ Select Stadium", stadiums)
 match_type = st.radio("📍 Match Type", ['Home', 'Away', 'Neutral'], horizontal=True)
 innings_input = st.radio("🕒 Innings", [1, 2], horizontal=True)
 
-# Year is fixed
-year_input = 2025
+year_input = 2024
+is_home_match = {'Home': 1, 'Away': 0, 'Neutral': 2}[match_type]
 
-# Encoding inputs
-opp_encoded = le_opponent.transform([opp_input])[0]
-venue_encoded = le_stadium.transform([venue_input])[0]
-is_home_match = 1 if match_type == 'Home' else 0 if match_type == 'Away' else 2
-
-# Check data existence for warning
+# ⚠️ Check if Kohli played at this combo
 exists = ((raw_df['Opponent'] == opp_input) & (raw_df['Stadium'] == venue_input)).any()
 if not exists:
     st.warning(f"⚠️ Kohli may not have played against **{opp_input}** at **{venue_input}**. Prediction may be less accurate.")
 
-# Prepare input and predict
-X_input = np.array([[opp_encoded, venue_encoded,year_input, is_home_match, innings_input]])
-pred = model.predict(X_input)[0]
-# Button to trigger prediction
+# 🔘 Prediction trigger
 if st.button("Predict Performance"):
-    # Prepare input
-    X_input = np.array([[opp_encoded, venue_encoded, year_input, is_home_match, innings_input]])
-    pred = model.predict(X_input)[0]
+    # ✅ Encode inputs
+    opp_encoded = le_opponent.transform([opp_input])[0]
+    venue_encoded = le_stadium.transform([venue_input])[0]
 
-    # Styling for metric cards
+    # ✅ Input as DataFrame to prevent sklearn warning
+    input_df = pd.DataFrame([[opp_encoded, venue_encoded, year_input, is_home_match, innings_input]],
+                            columns=["Opponent", "Stadium", "Year", "MatchType", "Innings"])
+
+    # 🔮 Predict
+    pred = model.predict(input_df)[0]
+
+    # 🎯 Display metrics
     st.markdown("""
     <style>
     div[data-testid="metric-container"] {
@@ -79,38 +79,27 @@ if st.button("Predict Performance"):
     </style>
     """, unsafe_allow_html=True)
 
-    # Show metrics
     st.markdown("<h3 style='color: #007acc;'>📊 Predicted Kohli Match Stats</h3>", unsafe_allow_html=True)
+
     col1, col2, col3 = st.columns(3)
-    r = (pred[0] / pred[1]) * 100
     col1.metric("Runs", f"{pred[0]:.0f}")
     col2.metric("Balls", f"{pred[1]:.0f}")
-    col3.metric("Strike Rate", f"{r:.0f}")
+    strike_rate = (pred[0] / pred[1]) * 100 if pred[1] != 0 else 0
+    col3.metric("Strike Rate", f"{strike_rate:.0f}")
 
     col4, col5, col6 = st.columns(3)
     col4.metric("4s", f"{pred[3]:.0f}")
     col5.metric("6s", f"{pred[4]:.0f}")
     col6.metric("Fantasy Score", f"{pred[5]:.1f}")
 
-    # Milestone Chances
-    fifty_chance = pred[6]
-    hundred_chance = pred[7]
-
+    fifty_chance, hundred_chance = pred[6], pred[7]
     st.markdown("<h3 style='color: #ff6600;'>🎯 Milestone Chances</h3>", unsafe_allow_html=True)
     col7, col8 = st.columns(2)
+    col7.success(f"50+ Chance: {fifty_chance*100:.1f}%") if fifty_chance >= 0.5 else col7.warning(f"50+ Chance: {fifty_chance*100:.1f}%")
+    col8.success(f"100+ Chance: {hundred_chance*100:.1f}%") if hundred_chance >= 0.5 else col8.warning(f"100+ Chance: {hundred_chance*100:.1f}%")
 
-    if fifty_chance >= 0.5:
-        col7.success(f"50+ Chance: {fifty_chance * 100:.1f}%")
-    else:
-        col7.warning(f"50+ Chance: {fifty_chance * 100:.1f}%")
-
-    if hundred_chance >= 0.5:
-        col8.success(f"100+ Chance: {hundred_chance * 100:.1f}%")
-    else:
-        col8.warning(f"100+ Chance: {hundred_chance * 100:.1f}%")
-# Footer
+# 👣 Footer
 st.markdown("""
 <hr>
 <p style='text-align: center; color: gray;'>Made with ❤️ by Subhadeep Mukherjee | Subham Paul | Santu Kapri</p>
 """, unsafe_allow_html=True)
-
