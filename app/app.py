@@ -3,13 +3,23 @@ import numpy as np
 import pandas as pd
 import joblib
 # Load model and encoders
-model = joblib.load("models_hist/kohli_model.pkl")
-le_opponent = joblib.load("models_hist/le_opponent.pkl")
-le_stadium = joblib.load("models_hist/le_stadium.pkl")
+@st.cache_resource
+def load_model_and_encoders():
+    model = joblib.load("models_hist/kohli_model.pkl")
+    le_opponent = joblib.load("models_hist/le_opponent.pkl")
+    le_stadium = joblib.load("models_hist/le_stadium.pkl")
+    return model, le_opponent, le_stadium
+
+model, le_opponent, le_stadium = load_model_and_encoders()
 
 # Load raw dataset to validate input combinations
-raw_df = pd.read_csv("data/Virat_kohli_DataSet_Final.csv")
-raw_df.rename(columns={'Oponentes': 'Opponent', 'Stadiam': 'Stadium'}, inplace=True)
+@st.cache_data
+def load_raw_data():
+    df = pd.read_csv("data/Virat_kohli_DataSet_Final.csv")
+    df.rename(columns={'Oponentes': 'Opponent', 'Stadiam': 'Stadium'}, inplace=True)
+    return df
+
+raw_df = load_raw_data()
 # Get class labels
 opponents = list(le_opponent.classes_)
 stadiums = list(le_stadium.classes_)
@@ -31,7 +41,7 @@ match_type = st.radio("📍 Match Type", ['Home', 'Away', 'Neutral'], horizontal
 innings_input = st.radio("🕒 Innings", [1, 2], horizontal=True)
 
 # Year is fixed
-year_input = 2024
+year_input = 2025
 
 # Encoding inputs
 opp_encoded = le_opponent.transform([opp_input])[0]
@@ -72,7 +82,7 @@ if st.button("Predict Performance"):
     # Show metrics
     st.markdown("<h3 style='color: #007acc;'>📊 Predicted Kohli Match Stats</h3>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns(3)
-    r = (pred[0] / pred[1]) * 100  # Runs, Balls, Strike Rate
+    r = (pred[0] / pred[1]) * 100
     col1.metric("Runs", f"{pred[0]:.0f}")
     col2.metric("Balls", f"{pred[1]:.0f}")
     col3.metric("Strike Rate", f"{r:.0f}")
