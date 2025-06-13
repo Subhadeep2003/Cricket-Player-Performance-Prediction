@@ -41,7 +41,7 @@ venue_input = st.selectbox("🏟️ Select Stadium", stadiums)
 match_type = st.radio("📍 Match Type", ['Home', 'Away', 'Neutral'], horizontal=True)
 innings_input = st.radio("🕒 Innings", [1, 2], horizontal=True)
 
-year_input = 2024
+year_input = 2025
 is_home_match = {'Home': 1, 'Away': 0, 'Neutral': 2}[match_type]
 
 # ⚠️ Check if Kohli played at this combo
@@ -57,7 +57,8 @@ if st.button("Predict Performance"):
 
     # ✅ Input as DataFrame to prevent sklearn warning
     input_df = pd.DataFrame([[opp_encoded, venue_encoded, year_input, is_home_match, innings_input]],
-                            columns=["Opponent", "Stadium", "Year", "MatchType", "Innings"])
+                        columns=["Opponent", "Stadium", "Year", "Is_Home_Match", "Innings"])
+
 
     # 🔮 Predict
     pred = model.predict(input_df)[0]
