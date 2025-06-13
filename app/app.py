@@ -3,12 +3,12 @@ import numpy as np
 import pandas as pd
 import joblib
 # Load model and encoders
-model = joblib.load("D:/Performance_Predictor/models_hist/kohli_model.pkl")
-le_opponent = joblib.load("D:/Performance_Predictor/models_hist/le_opponent.pkl")
-le_stadium = joblib.load("D:/Performance_Predictor/models_hist/le_stadium.pkl")
+model = joblib.load("models_hist/kohli_model.pkl")
+le_opponent = joblib.load("models_hist/le_opponent.pkl")
+le_stadium = joblib.load("models_hist/le_stadium.pkl")
 
 # Load raw dataset to validate input combinations
-raw_df = pd.read_csv("D:/Performance_Predictor/data/Virat_kohli_DataSet_Final.csv")
+raw_df = pd.read_csv("data/Virat_kohli_DataSet_Final.csv")
 raw_df.rename(columns={'Oponentes': 'Opponent', 'Stadiam': 'Stadium'}, inplace=True)
 # Get class labels
 opponents = list(le_opponent.classes_)
