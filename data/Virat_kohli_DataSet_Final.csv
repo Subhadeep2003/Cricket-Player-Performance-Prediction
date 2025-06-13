@@ -1,0 +1,244 @@
+Opponent,Match,Innings,Runs,Balls,Outs,SR,50,100,4s,6s,Dot %,Score,Next_Score,Stadium,Year,Is_Home_Match
+Kolkata Knight Riders,ipl2008_01,2,1,5,1,20,0,0,0,0,80,3,44.43,M.Chinnaswamy Stadium,2008,1
+Mumbai Indians,ipl2008_05,2,23,14,1,164.3,0,0,3,1,35.7,44.43,24.29,Wankhede Stadium,2008,0
+Rajasthan Royals,ipl2008_12,1,13,14,1,92.9,0,0,0,1,50,24.29,31.14,M.Chinnaswamy Stadium,2008,1
+Chennai Super Kings,ipl2008_15,2,12,7,1,171.4,0,0,2,0,28.6,31.14,11,M.Chinnaswamy Stadium,2008,1
+Delhi Capitals,ipl2008_17,2,1,1,0,100,0,0,0,0,0,11,56.1,Arun Jaitley Stadium,2008,0
+Sunrisers Hyderabad,ipl2008_21,1,38,29,1,131,0,0,1,2,17.2,56.1,48.44,M.Chinnaswamy Stadium,2008,1
+Kings 11 Punjab,ipl2008_25,1,34,36,1,94.4,0,0,5,0,50,48.44,34.55,M.Chinnaswamy Stadium,2008,1
+Kings 11 Punjab,ipl2008_34,1,21,22,1,95.5,0,0,4,0,63.6,34.55,7.29,Punjab Cricket Association IS Bindra Stadium,2008,0
+Rajasthan Royals,ipl2008_39,2,3,7,1,42.9,0,0,0,0,57.1,7.29,17.25,Sawai Mansingh Stadium,2008,0
+Chennai Super Kings,ipl2008_46,1,10,16,1,62.5,0,0,1,0,56.2,17.25,29,MA Chidambaram Stadium,2008,0
+Sunrisers Hyderabad,ipl2008_51,2,9,5,1,180,0,0,2,0,40,29,0,Rajiv Gandhi International Stadium,2008,0
+Mumbai Indians,ipl2008_55,1,0,1,1,0,0,0,0,0,100,0,6.75,M.Chinnaswamy Stadium,2008,1
+Rajasthan Royals,ipl2009_02,1,3,8,1,37.5,0,0,0,0,62.5,6.75,21.46,"Newlands, Cape Town",2009,0
+Chennai Super Kings,ipl2009_05,2,11,13,1,84.6,0,0,0,1,61.5,21.46,72.62,"St George's Park, Gqeberha",2009,0
+Sunrisers Hyderabad,ipl2009_08,2,50,32,1,156.2,1,0,7,0,31.2,72.62,8.67,"Newlands, Cape Town",2009,0
+Kings 11 Punjab,ipl2009_11,1,2,3,1,66.7,0,0,0,0,33.3,8.67,32.17,"Kingsmead, Durban",2009,0
+Delhi Capitals,ipl2009_14,1,22,24,1,91.7,0,0,1,0,25,32.17,37.83,"St George's Park, Gqeberha",2009,0
+Kolkata Knight Riders,ipl2009_19,2,19,12,1,158.3,0,0,1,1,25,37.83,29.43,"Kingsmead, Durban",2009,0
+Kings 11 Punjab,ipl2009_24,1,16,14,1,114.3,0,0,2,0,28.6,29.43,22.82,"Kingsmead, Durban",2009,0
+Rajasthan Royals,ipl2009_33,2,15,22,1,68.2,0,0,1,0,45.5,22.82,33.09,"SuperSport Park, Centurion",2009,0
+Mumbai Indians,ipl2009_38,2,20,22,1,90.9,0,0,4,0,63.6,33.09,56.86,"St George's Park, Gqeberha",2009,0
+Chennai Super Kings,ipl2009_44,2,38,35,1,108.6,0,0,4,2,54.3,56.86,44.11,"Kingsmead, Durban",2009,0
+Sunrisers Hyderabad,ipl2009_56,1,19,9,0,211.1,0,0,0,2,22.2,44.11,43.12,"SuperSport Park, Centurion",2009,0
+Chennai Super Kings,ipl2009_58,2,24,17,0,141.2,0,0,1,2,35.3,43.12,16.75,"The Wanderers Stadium, Johannesburg",2009,0
+Sunrisers Hyderabad,ipl2009_59,2,7,8,1,87.5,0,0,1,0,50,16.75,6,"The Wanderers Stadium, Johannesburg",2009,0
+Kolkata Knight Riders,ipl2010_04,1,2,5,1,40,0,0,0,0,60,6,32.33,Eden Gardens,2010,0
+Kings 11 Punjab,ipl2010_07,2,16,12,0,133.3,0,0,1,1,33.3,32.33,35.17,M.Chinnaswamy Stadium,2010,1
+Mumbai Indians,ipl2010_14,2,17,12,1,141.7,0,0,0,2,50,35.17,43,"Brabourne Stadium, Mumbai",2010,0
+Chennai Super Kings,ipl2010_18,1,24,16,1,150,0,0,2,1,25,43,60.52,M.Chinnaswamy Stadium,2010,1
+Delhi Capitals,ipl2010_20,2,38,23,0,165.2,0,0,4,1,13,60.52,53.17,M.Chinnaswamy Stadium,2010,1
+Chennai Super Kings,ipl2010_28,1,34,24,1,141.7,0,0,3,1,25,53.17,64.15,MA Chidambaram Stadium,2010,0
+Kings 11 Punjab,ipl2010_31,2,42,26,1,161.5,0,0,4,1,11.5,64.15,25.82,Punjab Cricket Association IS Bindra Stadium,2010,0
+Delhi Capitals,ipl2010_35,2,13,11,1,118.2,0,0,1,0,9.1,25.82,86.57,Arun Jaitley Stadium,2010,0
+Sunrisers Hyderabad,ipl2010_40,1,58,35,1,165.7,1,0,4,4,34.3,86.57,10.5,M.Chinnaswamy Stadium,2010,1
+Sunrisers Hyderabad,ipl2010_46,2,3,4,1,75,0,0,0,0,50,10.5,26.77,"Vidarbha Cricket Association Stadium, Nagpur",2010,0
+Rajasthan Royals,ipl2010_49,2,14,13,1,107.7,0,0,2,0,46.2,26.77,58.42,Sawai Mansingh Stadium,2010,0
+Mumbai Indians,ipl2010_52,2,37,24,1,154.2,0,0,4,1,16.7,58.42,22.86,M.Chinnaswamy Stadium,2010,1
+Mumbai Indians,ipl2010_57,2,9,7,1,128.6,0,0,1,0,42.9,22.86,39.78,"Dr DY Patil Sports Academy, Navi Mumbai",2010,0
+Kochi Tuskers Kerala,ipl2011_03,2,23,18,1,127.8,0,0,4,0,44.4,39.78,20.32,"Nehru Stadium, Kochi",2011,0
+Mumbai Indians,ipl2011_08,1,12,19,1,63.2,0,0,2,0,68.4,20.32,95.92,M.Chinnaswamy Stadium,2011,1
+Sunrisers Hyderabad,ipl2011_11,2,71,51,1,139.2,1,0,5,3,37.3,95.92,53.5,Rajiv Gandhi International Stadium,2011,0
+Chennai Super Kings,ipl2011_14,2,35,28,1,125,0,0,4,1,35.7,53.5,48.04,MA Chidambaram Stadium,2011,0
+Kolkata Knight Riders,ipl2011_24,2,30,23,0,130.4,0,0,3,1,34.8,48.04,82.74,Eden Gardens,2011,0
+Delhi Capitals,ipl2011_30,2,56,38,1,147.4,1,0,8,2,42.1,82.74,94.95,Arun Jaitley Stadium,2011,0
+Rising Pune Supergiant,ipl2011_35,1,67,42,1,159.5,1,0,4,4,23.8,94.95,39.71,M.Chinnaswamy Stadium,2011,1
+Kings 11 Punjab,ipl2011_47,1,27,31,1,87.1,0,0,4,0,54.8,39.71,38.18,M.Chinnaswamy Stadium,2011,1
+Kochi Tuskers Kerala,ipl2011_50,2,27,33,0,81.8,0,0,3,0,51.5,38.18,55.47,M.Chinnaswamy Stadium,2011,1
+Rajasthan Royals,ipl2011_55,2,39,34,0,114.7,0,0,3,1,29.4,55.47,27,Sawai Mansingh Stadium,2011,0
+Kolkata Knight Riders,ipl2011_58,2,15,15,1,100,0,0,2,0,40,27,23,M.Chinnaswamy Stadium,2011,1
+Kings 11 Punjab,ipl2011_63,2,11,11,1,100,0,0,2,0,63.6,23,46.69,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2011,0
+Chennai Super Kings,ipl2011_69,2,31,29,1,106.9,0,0,5,0,44.8,46.69,96.91,M.Chinnaswamy Stadium,2011,1
+Chennai Super Kings,ipl2011_71,1,70,44,0,159.1,1,0,5,3,22.7,96.91,14.67,Wankhede Stadium,2011,0
+Mumbai Indians,ipl2011_73,1,8,12,1,66.7,0,0,0,0,33.3,14.67,48.94,MA Chidambaram Stadium,2011,0
+Chennai Super Kings,ipl2011_74,2,35,32,1,109.4,0,0,1,1,37.5,48.94,19,MA Chidambaram Stadium,2011,0
+Delhi Capitals,ipl2012_05,1,8,8,1,100,0,0,1,0,50,19,11.29,M.Chinnaswamy Stadium,2012,1
+Kolkata Knight Riders,ipl2012_10,2,6,14,1,42.9,0,0,1,0,78.6,11.29,78.39,M.Chinnaswamy Stadium,2012,1
+Chennai Super Kings,ipl2012_13,1,57,46,1,123.9,1,0,5,2,34.8,78.39,36.22,MA Chidambaram Stadium,2012,0
+Rajasthan Royals,ipl2012_18,2,22,18,1,122.2,0,0,2,0,22.2,36.22,25.42,M.Chinnaswamy Stadium,2012,1
+Rising Pune Supergiant,ipl2012_21,2,16,19,1,84.2,0,0,1,0,36.8,25.42,15,M.Chinnaswamy Stadium,2012,1
+Kings 11 Punjab,ipl2012_25,2,4,4,1,100,0,0,1,0,75,15,28,Punjab Cricket Association IS Bindra Stadium,2012,0
+Rajasthan Royals,ipl2012_30,1,16,16,1,100,0,0,2,0,50,28,30.47,Sawai Mansingh Stadium,2012,0
+Kolkata Knight Riders,ipl2012_38,2,18,19,1,94.7,0,0,3,0,57.9,30.47,62.71,Eden Gardens,2012,0
+Kings 11 Punjab,ipl2012_44,1,45,42,1,107.1,0,0,3,2,40.5,62.71,20,M.Chinnaswamy Stadium,2012,1
+Sunrisers Hyderabad,ipl2012_50,2,9,9,1,100,0,0,1,0,44.4,20,55.4,M.Chinnaswamy Stadium,2012,1
+Mumbai Indians,ipl2012_54,2,36,25,0,144,0,0,1,2,12,55.4,17.5,Wankhede Stadium,2012,0
+Rising Pune Supergiant,ipl2012_57,1,9,12,1,75,0,0,1,0,50,17.5,33,"Maharashtra Cricket Association Stadium, Pune",2012,0
+Mumbai Indians,ipl2012_62,1,3,1,1,300,0,0,0,0,0,33,97.77,M.Chinnaswamy Stadium,2012,1
+Delhi Capitals,ipl2012_67,1,73,53,0,137.7,1,0,9,1,28.3,97.77,60.5,Arun Jaitley Stadium,2012,0
+Sunrisers Hyderabad,ipl2012_71,2,42,40,1,105,0,0,2,3,50,60.5,47.14,Rajiv Gandhi International Stadium,2012,0
+Mumbai Indians,ipl2013_02,1,24,14,1,171.4,0,0,4,1,50,47.14,63.45,M.Chinnaswamy Stadium,2013,1
+Sunrisers Hyderabad,ipl2013_07,1,46,44,1,104.5,0,0,5,1,45.5,63.45,131.79,Rajiv Gandhi International Stadium,2013,0
+Sunrisers Hyderabad,ipl2013_09,2,93,47,0,197.9,1,0,11,4,25.5,131.79,55.96,M.Chinnaswamy Stadium,2013,1
+Kolkata Knight Riders,ipl2013_12,2,35,27,1,129.6,0,0,4,2,51.9,55.96,76.34,M.Chinnaswamy Stadium,2013,1
+Chennai Super Kings,ipl2013_16,1,58,47,1,123.4,1,0,2,2,29.8,76.34,87,MA Chidambaram Stadium,2013,0
+Delhi Capitals,ipl2013_21,2,65,50,1,130,1,0,7,1,36,87,3.5,M.Chinnaswamy Stadium,2013,1
+Rajasthan Royals,ipl2013_27,2,1,4,1,25,0,0,0,0,75,3.5,25.22,M.Chinnaswamy Stadium,2013,1
+Rising Pune Supergiant,ipl2013_31,1,11,9,1,122.2,0,0,0,1,33.3,25.22,3.5,M.Chinnaswamy Stadium,2013,1
+Mumbai Indians,ipl2013_37,2,1,4,1,25,0,0,0,0,75,3.5,44.14,Wankhede Stadium,2013,0
+Rajasthan Royals,ipl2013_40,1,32,35,1,91.4,0,0,3,0,42.9,44.14,41.89,Sawai Mansingh Stadium,2013,0
+Rising Pune Supergiant,ipl2013_46,1,25,18,1,138.9,0,0,3,0,16.7,41.89,25,"Maharashtra Cricket Association Stadium, Pune",2013,0
+Kings 11 Punjab,ipl2013_51,1,14,14,1,100,0,0,1,0,35.7,25,134.07,Punjab Cricket Association IS Bindra Stadium,2013,0
+Delhi Capitals,ipl2013_57,1,99,58,1,170.7,1,0,10,4,24.1,134.07,31.14,Arun Jaitley Stadium,2013,0
+Kolkata Knight Riders,ipl2013_60,1,17,14,1,121.4,0,0,2,0,35.7,31.14,80.26,"JSCA International Stadium Complex, Ranchi",2013,0
+Kings 11 Punjab,ipl2013_63,1,57,43,1,132.6,1,0,6,2,37.2,80.26,89.31,M.Chinnaswamy Stadium,2013,1
+Chennai Super Kings,ipl2013_70,1,56,29,0,193.1,1,0,6,4,41.4,89.31,69.89,M.Chinnaswamy Stadium,2013,1
+Delhi Capitals,ipl2014_02,2,49,38,0,128.9,0,0,2,3,31.6,69.89,0,"Sharjah Cricket Stadium, Sharjah",2014,0
+Mumbai Indians,ipl2014_05,2,0,2,1,0,0,0,0,0,100,0,48.48,"Dubai International Cricket Stadium, Dubai",2014,0
+Kolkata Knight Riders,ipl2014_11,2,31,23,1,134.8,0,0,4,0,30.4,48.48,32.4,"Sharjah Cricket Stadium, Sharjah",2014,0
+Rajasthan Royals,ipl2014_14,1,21,25,1,84,0,0,3,0,52,32.4,25,"Sheikh Zayed Stadium, Abu Dhabi",2014,0
+Kings 11 Punjab,ipl2014_18,1,4,2,1,200,0,0,1,0,50,25,0,"Dubai International Cricket Stadium, Dubai",2014,0
+Mumbai Indians,ipl2014_24,2,0,5,1,0,0,0,0,0,100,0,53.5,Wankhede Stadium,2014,0
+Sunrisers Hyderabad,ipl2014_27,2,35,28,1,125,0,0,2,2,39.3,53.5,0,M.Chinnaswamy Stadium,2014,1
+Kings 11 Punjab,ipl2014_31,2,0,1,1,0,0,0,0,0,100,0,9.44,M.Chinnaswamy Stadium,2014,1
+Rajasthan Royals,ipl2014_35,1,4,9,1,44.4,0,0,1,0,88.9,9.44,19.09,M.Chinnaswamy Stadium,2014,1
+Delhi Capitals,ipl2014_38,1,10,11,1,90.9,0,0,0,0,27.3,19.09,39.31,M.Chinnaswamy Stadium,2014,1
+Chennai Super Kings,ipl2014_42,2,27,29,1,93.1,0,0,1,1,41.4,39.31,95.34,"JSCA International Stadium Complex, Ranchi",2014,0
+Sunrisers Hyderabad,ipl2014_46,1,67,41,1,163.4,1,0,4,4,22,95.34,55.26,Rajiv Gandhi International Stadium,2014,0
+Kolkata Knight Riders,ipl2014_49,2,38,31,1,122.6,0,0,3,1,29,55.26,99.9,Eden Gardens,2014,0
+Chennai Super Kings,ipl2014_53,1,73,49,1,149,1,0,2,5,28.6,99.9,23.67,M.Chinnaswamy Stadium,2014,1
+Kolkata Knight Riders,ipl2015_05,2,13,15,1,86.7,0,0,0,1,60,23.67,60.08,Eden Gardens,2015,0
+Sunrisers Hyderabad,ipl2015_08,1,41,37,1,110.8,0,0,4,2,51.4,60.08,31,M.Chinnaswamy Stadium,2015,1
+Mumbai Indians,ipl2015_17,2,18,18,1,100,0,0,1,1,50,31,71.14,M.Chinnaswamy Stadium,2015,1
+Chennai Super Kings,ipl2015_21,2,51,42,1,121.4,1,0,4,2,38.1,71.14,82.48,M.Chinnaswamy Stadium,2015,1
+Rajasthan Royals,ipl2015_23,2,62,46,0,134.8,1,0,1,3,19.6,82.48,56.22,"Narendra Modi Stadium, Ahmedabad",2015,0
+Delhi Capitals,ipl2015_27,2,35,23,0,152.2,0,0,6,0,26.1,56.22,3.5,Arun Jaitley Stadium,2015,0
+Rajasthan Royals,ipl2015_30,1,1,4,1,25,0,0,0,0,75,3.5,59,M.Chinnaswamy Stadium,2015,1
+Kolkata Knight Riders,ipl2015_34,2,34,20,1,170,0,0,2,3,35,59,62.91,M.Chinnaswamy Stadium,2015,1
+Chennai Super Kings,ipl2015_38,2,48,44,1,109.1,0,0,2,1,38.6,62.91,47.67,MA Chidambaram Stadium,2015,0
+Kings 11 Punjab,ipl2015_41,1,32,30,1,106.7,0,0,3,1,43.3,47.67,112.4,M.Chinnaswamy Stadium,2015,1
+Mumbai Indians,ipl2015_46,1,82,50,0,164,1,0,6,4,20,112.4,44.11,Wankhede Stadium,2015,0
+Kings 11 Punjab,ipl2015_50,2,19,9,1,211.1,0,0,2,1,33.3,44.11,76.16,Punjab Cricket Association IS Bindra Stadium,2015,0
+Sunrisers Hyderabad,ipl2015_52,2,44,19,0,231.6,0,0,3,3,21.1,76.16,6,Rajiv Gandhi International Stadium,2015,0
+Delhi Capitals,ipl2015_55,2,1,2,0,50,0,0,0,0,50,6,18.67,M.Chinnaswamy Stadium,2015,1
+Rajasthan Royals,ipl2015_58,2,12,18,1,66.7,0,0,0,0,44.4,18.67,28.33,"Maharashtra Cricket Association Stadium, Pune",2015,0
+Chennai Super Kings,ipl2015_59,1,12,9,1,133.3,0,0,1,1,55.6,28.33,102.71,"JSCA International Stadium Complex, Ranchi",2015,0
+Sunrisers Hyderabad,ipl2016_04,1,75,51,1,147.1,1,0,7,3,33.3,102.71,108.46,M.Chinnaswamy Stadium,2016,1
+Delhi Capitals,ipl2016_11,1,79,48,1,164.6,1,0,7,3,16.7,108.46,47,M.Chinnaswamy Stadium,2016,1
+Mumbai Indians,ipl2016_14,1,33,30,1,110,0,0,3,0,30,47,103.7,Wankhede Stadium,2016,0
+Rising Pune Supergiant,ipl2016_16,1,80,63,1,127,1,0,7,2,27,103.7,128.87,"Maharashtra Cricket Association Stadium, Pune",2016,0
+Gujarat Lions,ipl2016_19,1,100,63,0,158.7,0,1,11,1,17.5,128.87,23.24,"Niranjan Shah Stadium, Rajkot",2016,0
+Sunrisers Hyderabad,ipl2016_27,2,14,17,1,82.4,0,0,1,0,35.3,23.24,67.82,Rajiv Gandhi International Stadium,2016,0
+Kolkata Knight Riders,ipl2016_30,1,52,44,1,118.2,1,0,4,0,22.7,67.82,148.62,M.Chinnaswamy Stadium,2016,1
+Rising Pune Supergiant,ipl2016_35,2,108,58,0,186.2,0,1,8,7,22.4,148.62,31.52,M.Chinnaswamy Stadium,2016,1
+Kings 11 Punjab,ipl2016_39,1,20,21,1,95.2,0,0,2,0,42.9,31.52,19,Punjab Cricket Association IS Bindra Stadium,2016,0
+Mumbai Indians,ipl2016_41,1,7,7,1,100,0,0,0,1,71.4,19,150.82,M.Chinnaswamy Stadium,2016,1
+Gujarat Lions,ipl2016_44,1,109,55,1,198.2,0,1,6,8,20,150.82,100.71,M.Chinnaswamy Stadium,2016,1
+Kolkata Knight Riders,ipl2016_48,2,75,51,0,147.1,1,0,5,3,25.5,100.71,163.6,Eden Gardens,2016,0
+Kings 11 Punjab,ipl2016_50,1,113,50,1,226,0,1,12,8,30,163.6,72,M.Chinnaswamy Stadium,2016,1
+Delhi Capitals,ipl2016_56,2,54,45,0,120,1,0,6,0,26.7,72,0,"Shaheed Veer Narayan Singh International Stadium, Raipur",2016,0
+Gujarat Lions,ipl2016_57,2,0,2,1,0,0,0,0,0,100,0,78.43,M.Chinnaswamy Stadium,2016,1
+Sunrisers Hyderabad,ipl2016_60,2,54,35,1,154.3,1,0,5,2,31.4,78.43,84.19,M.Chinnaswamy Stadium,2016,1
+Mumbai Indians,ipl2017_12,1,62,47,1,131.9,1,0,5,2,29.8,84.19,47.74,M.Chinnaswamy Stadium,2017,1
+Rising Pune Supergiant,ipl2017_17,2,28,19,1,147.4,0,0,3,1,42.1,47.74,85.8,M.Chinnaswamy Stadium,2017,1
+Gujarat Lions,ipl2017_20,1,64,50,1,128,1,0,7,1,32,85.8,0,"Niranjan Shah Stadium, Rajkot",2017,0
+Kolkata Knight Riders,ipl2017_27,2,0,1,1,0,0,0,0,0,100,0,19.69,Eden Gardens,2017,0
+Gujarat Lions,ipl2017_31,1,10,13,1,76.9,0,0,0,1,69.2,19.69,72.46,M.Chinnaswamy Stadium,2017,1
+Rising Pune Supergiant,ipl2017_34,2,55,48,1,114.6,1,0,4,1,31.2,72.46,38.29,"Maharashtra Cricket Association Stadium, Pune",2017,0
+Mumbai Indians,ipl2017_38,1,20,14,1,142.9,0,0,0,2,35.7,38.29,17,Wankhede Stadium,2017,0
+Kings 11 Punjab,ipl2017_43,2,6,6,1,100,0,0,1,0,66.7,17,10.56,M.Chinnaswamy Stadium,2017,1
+Kolkata Knight Riders,ipl2017_46,1,5,9,1,55.6,0,0,0,0,55.6,10.56,79.89,M.Chinnaswamy Stadium,2017,1
+Delhi Capitals,ipl2017_56,1,58,45,1,128.9,1,0,3,3,28.9,79.89,43.39,Arun Jaitley Stadium,2017,0
+Kolkata Knight Riders,ipl2018_03,1,31,33,1,93.9,0,0,1,1,39.4,43.39,38.12,Eden Gardens,2018,0
+Kings 11 Punjab,ipl2018_08,2,21,16,1,131.2,0,0,4,0,43.8,38.12,87,M.Chinnaswamy Stadium,2018,1
+Rajasthan Royals,ipl2018_11,2,57,30,1,190,1,0,7,2,20,87,121.84,M.Chinnaswamy Stadium,2018,1
+Mumbai Indians,ipl2018_14,2,92,62,0,148.4,1,0,7,4,24.2,121.84,45.54,Wankhede Stadium,2018,0
+Delhi Capitals,ipl2018_19,2,30,26,1,115.4,0,0,2,1,30.8,45.54,33,M.Chinnaswamy Stadium,2018,1
+Chennai Super Kings,ipl2018_24,1,18,15,1,120,0,0,3,0,46.7,33,94.45,"Maharashtra Cricket Association Stadium, Pune",2018,0
+Kolkata Knight Riders,ipl2018_29,1,68,44,0,154.5,1,0,5,3,27.3,94.45,48.31,M.Chinnaswamy Stadium,2018,1
+Mumbai Indians,ipl2018_31,1,32,26,1,123.1,0,0,2,1,30.8,48.31,16.27,M.Chinnaswamy Stadium,2018,1
+Chennai Super Kings,ipl2018_35,1,8,11,1,72.7,0,0,1,0,54.5,16.27,59,M.Chinnaswamy Stadium,2018,1
+Sunrisers Hyderabad,ipl2018_39,2,39,30,1,130,0,0,5,1,40,59,100.5,Rajiv Gandhi International Stadium,2018,0
+Delhi Capitals,ipl2018_45,2,70,40,1,175,1,0,7,3,22.5,100.5,75.14,Arun Jaitley Stadium,2018,0
+Kings 11 Punjab,ipl2018_48,2,48,28,0,171.4,0,0,6,2,28.6,75.14,24.91,"Holkar Cricket Stadium, Indore",2018,0
+Sunrisers Hyderabad,ipl2018_51,1,12,11,1,109.1,0,0,2,0,45.5,24.91,8.44,M.Chinnaswamy Stadium,2018,1
+Rajasthan Royals,ipl2018_53,2,4,9,1,44.4,0,0,0,0,55.6,8.44,11,Sawai Mansingh Stadium,2018,0
+Chennai Super Kings,ipl2019_01,1,6,12,1,50,0,0,0,0,58.3,11,66.38,MA Chidambaram Stadium,2019,0
+Mumbai Indians,ipl2019_07,2,46,32,1,143.8,0,0,6,0,18.8,66.38,6,M.Chinnaswamy Stadium,2019,1
+Sunrisers Hyderabad,ipl2019_11,2,3,10,1,30,0,0,0,0,70,6,35.2,Rajiv Gandhi International Stadium,2019,0
+Rajasthan Royals,ipl2019_14,1,23,25,1,92,0,0,3,0,52,35.2,114.14,Sawai Mansingh Stadium,2019,0
+Kolkata Knight Riders,ipl2019_17,1,84,49,1,171.4,1,0,9,2,16.3,114.14,58.42,M.Chinnaswamy Stadium,2019,1
+Delhi Capitals,ipl2019_20,1,41,33,1,124.2,0,0,1,2,15.2,58.42,87.64,M.Chinnaswamy Stadium,2019,1
+Kings 11 Punjab,ipl2019_28,2,67,53,1,126.4,1,0,8,0,28.3,87.64,17.89,Punjab Cricket Association IS Bindra Stadium,2019,0
+Mumbai Indians,ipl2019_31,1,8,9,1,88.9,0,0,1,0,44.4,17.89,134.24,Wankhede Stadium,2019,0
+Kolkata Knight Riders,ipl2019_35,1,100,58,1,172.4,0,1,9,4,20.7,134.24,22.25,Eden Gardens,2019,0
+Chennai Super Kings,ipl2019_39,1,9,8,1,112.5,0,0,2,0,62.5,22.25,31.25,M.Chinnaswamy Stadium,2019,1
+Kings 11 Punjab,ipl2019_42,2,13,8,1,162.5,0,0,2,0,25,31.25,40.53,M.Chinnaswamy Stadium,2019,1
+Delhi Capitals,ipl2019_46,2,23,17,1,135.3,0,0,2,1,35.3,40.53,67.71,Arun Jaitley Stadium,2019,0
+Rajasthan Royals,ipl2019_49,1,25,7,1,357.1,0,0,1,3,14.3,67.71,42.86,M.Chinnaswamy Stadium,2019,1
+Sunrisers Hyderabad,ipl2019_54,2,16,7,1,228.6,0,0,2,1,28.6,42.86,24.77,M.Chinnaswamy Stadium,2019,1
+Sunrisers Hyderabad,ipl2020_03,1,14,13,1,107.7,0,0,0,0,15.4,24.77,3,"Dubai International Cricket Stadium, Dubai",2020,0
+Kings 11 Punjab,ipl2020_06,2,1,5,1,20,0,0,0,0,80,3,5.73,"Dubai International Cricket Stadium, Dubai",2020,0
+Mumbai Indians,ipl2020_10,1,3,11,1,27.3,0,0,0,0,72.7,5.73,96.58,"Dubai International Cricket Stadium, Dubai",2020,0
+Rajasthan Royals,ipl2020_15,2,72,53,0,135.8,1,0,7,2,35.8,96.58,58.03,"Sheikh Zayed Stadium, Abu Dhabi",2020,0
+Delhi Capitals,ipl2020_19,2,43,39,1,110.3,0,0,2,1,30.8,58.03,119.31,"Dubai International Cricket Stadium, Dubai",2020,0
+Chennai Super Kings,ipl2020_25,1,90,52,0,173.1,1,0,4,4,9.6,119.31,45.79,"Sheikh Zayed Stadium, Abu Dhabi",2020,0
+Kolkata Knight Riders,ipl2020_28,1,33,28,0,117.9,0,0,1,0,17.9,45.79,63.31,"Sharjah Cricket Stadium, Sharjah",2020,0
+Kings 11 Punjab,ipl2020_31,1,48,39,1,123.1,0,0,3,0,12.8,63.31,61.44,"Sharjah Cricket Stadium, Sharjah",2020,0
+Rajasthan Royals,ipl2020_33,2,43,32,1,134.4,0,0,1,2,25,61.44,30.59,"Dubai International Cricket Stadium, Dubai",2020,0
+Kolkata Knight Riders,ipl2020_39,2,18,17,0,105.9,0,0,2,0,35.3,30.59,64.63,"Sheikh Zayed Stadium, Abu Dhabi",2020,0
+Chennai Super Kings,ipl2020_44,1,50,43,1,116.3,1,0,1,1,16.3,64.63,15.43,"Dubai International Cricket Stadium, Dubai",2020,0
+Mumbai Indians,ipl2020_48,1,9,14,1,64.3,0,0,0,0,50,15.43,17,"Sheikh Zayed Stadium, Abu Dhabi",2020,0
+Sunrisers Hyderabad,ipl2020_52,1,7,7,1,100,0,0,0,0,28.6,17,45.08,"Sharjah Cricket Stadium, Sharjah",2020,0
+Delhi Capitals,ipl2020_55,1,29,24,1,120.8,0,0,2,1,29.2,45.08,14.57,"Sheikh Zayed Stadium, Abu Dhabi",2020,0
+Sunrisers Hyderabad,ipl2020_58,1,6,7,1,85.7,0,0,0,0,42.9,14.57,48.38,"Sheikh Zayed Stadium, Abu Dhabi",2020,0
+Mumbai Indians,ipl2021_01,2,33,29,1,113.8,0,0,4,0,41.4,48.38,48.38,MA Chidambaram Stadium,2021,0
+Sunrisers Hyderabad,ipl2021_06,1,33,29,1,113.8,0,0,4,0,31,48.38,14.33,MA Chidambaram Stadium,2021,0
+Kolkata Knight Riders,ipl2021_10,1,5,6,1,83.3,0,0,1,0,66.7,14.33,99.32,MA Chidambaram Stadium,2021,0
+Rajasthan Royals,ipl2021_16,2,72,47,0,153.2,1,0,6,3,21.3,99.32,20.43,Wankhede Stadium,2021,0
+Chennai Super Kings,ipl2021_19,2,8,7,1,114.3,0,0,1,0,28.6,20.43,24.91,Wankhede Stadium,2021,0
+Delhi Capitals,ipl2021_22,1,12,11,1,109.1,0,0,2,0,45.5,24.91,50.29,"Narendra Modi Stadium, Ahmedabad",2021,0
+Kings 11 Punjab,ipl2021_26,2,35,34,1,102.9,0,0,3,1,41.2,50.29,18.5,"Narendra Modi Stadium, Ahmedabad",2021,0
+Kolkata Knight Riders,ipl2021_31,1,5,4,1,125,0,0,1,0,50,18.5,73.93,"Sheikh Zayed Stadium, Abu Dhabi",2021,0
+Chennai Super Kings,ipl2021_35,1,53,41,1,129.3,1,0,6,1,29.3,73.93,72.14,"Sharjah Cricket Stadium, Sharjah",2021,0
+Mumbai Indians,ipl2021_39,1,51,42,1,121.4,1,0,3,3,42.9,72.14,41.5,"Sheikh Zayed Stadium, Abu Dhabi",2021,0
+Rajasthan Royals,ipl2021_43,2,25,20,1,125,0,0,4,0,50,41.5,39.42,"Dubai International Cricket Stadium, Dubai",2021,0
+Kings 11 Punjab,ipl2021_48,1,25,24,1,104.2,0,0,2,1,50,39.42,18.5,"Sharjah Cricket Stadium, Sharjah",2021,0
+Sunrisers Hyderabad,ipl2021_52,1,5,4,1,125,0,0,1,0,50,18.5,9,"Sheikh Zayed Stadium, Abu Dhabi",2021,0
+Delhi Capitals,ipl2021_56,2,4,8,1,50,0,0,0,0,62.5,9,55.82,"Dubai International Cricket Stadium, Dubai",2021,0
+Kolkata Knight Riders,ipl2021_58,1,39,33,1,118.2,0,0,5,0,27.3,55.82,60.14,"Sharjah Cricket Stadium, Sharjah",2021,0
+Kings 11 Punjab,ipl2022_03,1,41,29,0,141.4,0,0,1,2,17.2,60.14,31.14,"Dr DY Patil Sports Academy, Navi Mumbai",2022,0
+Kolkata Knight Riders,ipl2022_06,2,12,7,1,171.4,0,0,2,0,42.9,31.14,13.33,"Dr DY Patil Sports Academy, Navi Mumbai",2022,0
+Rajasthan Royals,ipl2022_13,2,5,6,1,83.3,0,0,0,0,33.3,13.33,66.33,Wankhede Stadium,2022,0
+Mumbai Indians,ipl2022_18,2,48,36,1,133.3,0,0,5,0,27.8,66.33,4.33,"Maharashtra Cricket Association Stadium, Pune",2022,0
+Chennai Super Kings,ipl2022_22,2,1,3,1,33.3,0,0,0,0,66.7,4.33,21.57,"Dr DY Patil Sports Academy, Navi Mumbai",2022,0
+Delhi Capitals,ipl2022_27,1,12,14,1,85.7,0,0,1,0,42.9,21.57,0,Wankhede Stadium,2022,0
+Lucknow Super Giants,ipl2022_31,1,0,1,1,0,0,0,0,0,100,0,0,"Dr DY Patil Sports Academy, Navi Mumbai",2022,0
+Sunrisers Hyderabad,ipl2022_36,1,0,1,1,0,0,0,0,0,100,0,20,"Brabourne Stadium, Mumbai",2022,0
+Rajasthan Royals,ipl2022_39,2,9,10,1,90,0,0,2,0,70,20,76.94,"Maharashtra Cricket Association Stadium, Pune",2022,0
+Gujarat Titans,ipl2022_43,1,58,53,1,109.4,1,0,6,1,37.7,76.94,44.09,"Brabourne Stadium, Mumbai",2022,0
+Chennai Super Kings,ipl2022_49,2,30,33,1,90.9,0,0,3,1,54.5,44.09,0,"Maharashtra Cricket Association Stadium, Pune",2022,0
+Sunrisers Hyderabad,ipl2022_54,1,0,1,1,0,0,0,0,0,100,0,38.29,Wankhede Stadium,2022,0
+Kings 11 Punjab,ipl2022_60,2,20,14,1,142.9,0,0,2,1,50,38.29,98.52,"Brabourne Stadium, Mumbai",2022,0
+Gujarat Titans,ipl2022_67,2,73,54,1,135.2,1,0,8,2,29.6,98.52,37.42,Wankhede Stadium,2022,0
+Lucknow Super Giants,ipl2022_72,1,25,24,1,104.2,0,0,2,0,41.7,37.42,17.75,Eden Gardens,2022,0
+Rajasthan Royals,ipl2022_73,1,7,8,1,87.5,0,0,0,1,75,17.75,114.73,"Narendra Modi Stadium, Ahmedabad",2022,0
+Mumbai Indians,ipl2023_05,2,82,49,0,167.3,1,0,6,5,30.6,114.73,35.67,M.Chinnaswamy Stadium,2023,1
+Kolkata Knight Riders,ipl2023_09,2,21,18,1,116.7,0,0,3,0,50,35.67,86.86,Eden Gardens,2023,0
+Lucknow Super Giants,ipl2023_15,1,61,44,1,138.6,1,0,4,4,36.4,86.86,72.71,M.Chinnaswamy Stadium,2023,1
+Delhi Capitals,ipl2023_20,1,50,34,1,147.1,1,0,6,1,26.5,72.71,22,M.Chinnaswamy Stadium,2023,1
+Chennai Super Kings,ipl2023_24,2,6,4,1,150,0,0,1,0,50,22,78.55,M.Chinnaswamy Stadium,2023,1
+Kings 11 Punjab,ipl2023_27,1,59,47,1,125.5,1,0,5,1,27.7,78.55,0,Punjab Cricket Association IS Bindra Stadium,2023,0
+Rajasthan Royals,ipl2023_32,1,0,1,1,0,0,0,0,0,100,0,74.59,M.Chinnaswamy Stadium,2023,1
+Kolkata Knight Riders,ipl2023_36,2,54,37,1,145.9,1,0,6,0,13.5,74.59,44.33,M.Chinnaswamy Stadium,2023,1
+Lucknow Super Giants,ipl2023_43,1,31,30,1,103.3,0,0,3,0,30,44.33,71.96,"Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",2023,0
+Delhi Capitals,ipl2023_50,1,55,46,1,119.6,1,0,5,0,26.1,71.96,3.5,Arun Jaitley Stadium,2023,0
+Mumbai Indians,ipl2023_54,1,1,4,1,25,0,0,0,0,75,3.5,28.47,Wankhede Stadium,2023,0
+Rajasthan Royals,ipl2023_60,1,18,19,1,94.7,0,0,1,0,21.1,28.47,135.87,Sawai Mansingh Stadium,2023,0
+Sunrisers Hyderabad,ipl2023_65,2,100,63,1,158.7,0,1,12,4,34.9,135.87,132.56,Rajiv Gandhi International Stadium,2023,0
+Gujarat Titans,ipl2023_70,1,101,61,0,165.6,0,1,13,1,16.4,132.56,33.5,M.Chinnaswamy Stadium,2023,1
+Chennai Super Kings,ipl2024_01,1,21,20,1,105,0,0,0,1,30,33.5,107.71,MA Chidambaram Stadium,2024,0
+Kings 11 Punjab,ipl2024_06,2,77,49,1,157.1,1,0,11,2,38.8,107.71,109.07,M.Chinnaswamy Stadium,2024,1
+Kolkata Knight Riders,ipl2024_10,1,83,59,0,140.7,1,0,4,4,27.1,109.07,39.75,M.Chinnaswamy Stadium,2024,1
+Lucknow Super Giants,ipl2024_15,2,22,16,1,137.5,0,0,2,1,37.5,39.75,148.69,M.Chinnaswamy Stadium,2024,1
+Rajasthan Royals,ipl2024_19,1,113,72,0,156.9,0,1,12,4,27.8,148.69,6.33,Sawai Mansingh Stadium,2024,0
+Mumbai Indians,ipl2024_25,1,3,9,1,33.3,0,0,0,0,66.7,6.33,73,Wankhede Stadium,2024,0
+Sunrisers Hyderabad,ipl2024_30,2,42,20,1,210,0,0,6,2,35,73,48.71,M.Chinnaswamy Stadium,2024,1
+Kolkata Knight Riders,ipl2024_36,2,18,7,1,257.1,0,0,1,2,28.6,48.71,68.86,Eden Gardens,2024,0
+Sunrisers Hyderabad,ipl2024_41,1,51,43,1,118.6,1,0,4,1,25.6,68.86,97.91,Rajiv Gandhi International Stadium,2024,0
+Gujarat Titans,ipl2024_45,2,70,44,0,159.1,1,0,6,3,22.7,97.91,67.56,"Narendra Modi Stadium, Ahmedabad",2024,0
+Gujarat Titans,ipl2024_52,2,42,27,1,155.6,0,0,2,4,40.7,67.56,130.57,M.Chinnaswamy Stadium,2024,1
+Kings 11 Punjab,ipl2024_58,1,92,47,1,195.7,1,0,7,6,23.4,130.57,54.77,"Himachal Pradesh Cricket Association Stadium, Dharamsala",2024,0
+Delhi Capitals,ipl2024_62,1,27,13,1,207.7,0,0,1,3,38.5,54.77,74.21,M.Chinnaswamy Stadium,2024,1
+Chennai Super Kings,ipl2024_68,1,47,29,1,162.1,0,0,3,4,37.9,74.21,51.75,M.Chinnaswamy Stadium,2024,1
