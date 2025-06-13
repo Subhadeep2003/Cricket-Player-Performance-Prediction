@@ -3,10 +3,10 @@ import numpy as np
 import pandas as pd
 import joblib
 
-# 🚀 Page config
-st.set_page_config(page_title="Kohli Match Predictor", layout="centered")
+# Page configuration
+st.set_page_config(page_title=" Match Performance Predictor", layout="centered")
 
-# ✅ Cache the model and encoders to avoid reloading
+# Cache the model and encoders to avoid reloading
 @st.cache_resource
 def load_model_and_encoders():
     model = joblib.load("models_hist/kohli_model.pkl")
@@ -28,11 +28,11 @@ raw_df = load_raw_data()
 # 🎨 Header
 st.markdown("""
     <h1 style='text-align: center; color: #cc3300;'>Player Performance Predictor</h1>
-    <h4 style='text-align: center; color: #555;'>Predict Kohli’s performance based on match conditions</h4>
+    <h4 style='text-align: center; color: #555;'>Predict Player performance based on match conditions</h4>
     <hr style='border: 1px solid #cc3300;'>
 """, unsafe_allow_html=True)
 
-# 📥 Inputs
+# Inputs
 opponents = list(le_opponent.classes_)
 stadiums = list(le_stadium.classes_)
 
@@ -42,7 +42,7 @@ match_type = st.radio("📍 Match Type", ['Home', 'Away', 'Neutral'], horizontal
 innings_input = st.radio("🕒 Innings", [1, 2], horizontal=True)
 
 year_input = 2025
-is_home_match = {'Home': 1, 'Away': 0, 'Neutral': 2}[match_type]
+
 
 # ⚠️ Check if Kohli played at this combo
 exists = ((raw_df['Opponent'] == opp_input) & (raw_df['Stadium'] == venue_input)).any()
@@ -54,8 +54,9 @@ if st.button("Predict Performance"):
     # ✅ Encode inputs
     opp_encoded = le_opponent.transform([opp_input])[0]
     venue_encoded = le_stadium.transform([venue_input])[0]
+    is_home_match = 1 if match_type == 'Home' else 0 if match_type == 'Away' else 2
 
-    # ✅ Input as DataFrame to prevent sklearn warning
+    # Input as DataFrame to prevent sklearn warning
     input_df = pd.DataFrame([[opp_encoded, venue_encoded, year_input, is_home_match, innings_input]],
                         columns=["Opponent", "Stadium", "Year", "Is_Home_Match", "Innings"])
 
@@ -93,11 +94,22 @@ if st.button("Predict Performance"):
     col5.metric("6s", f"{pred[4]:.0f}")
     col6.metric("Fantasy Score", f"{pred[5]:.1f}")
 
-    fifty_chance, hundred_chance = pred[6], pred[7]
+    # Milestone Chances
+    fifty_chance = pred[6]
+    hundred_chance = pred[7]
+
     st.markdown("<h3 style='color: #ff6600;'>🎯 Milestone Chances</h3>", unsafe_allow_html=True)
     col7, col8 = st.columns(2)
-    col7.success(f"50+ Chance: {fifty_chance*100:.1f}%") if fifty_chance >= 0.5 else col7.warning(f"50+ Chance: {fifty_chance*100:.1f}%")
-    col8.success(f"100+ Chance: {hundred_chance*100:.1f}%") if hundred_chance >= 0.5 else col8.warning(f"100+ Chance: {hundred_chance*100:.1f}%")
+
+    if fifty_chance >= 0.5:
+        col7.success(f"50+ Chance: {fifty_chance * 100:.1f}%")
+    else:
+        col7.warning(f"50+ Chance: {fifty_chance * 100:.1f}%")
+
+    if hundred_chance >= 0.5:
+        col8.success(f"100+ Chance: {hundred_chance * 100:.1f}%")
+    else:
+        col8.warning(f"100+ Chance: {hundred_chance * 100:.1f}%")
 
 # 👣 Footer
 st.markdown("""
